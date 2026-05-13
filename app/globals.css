@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: black;
+  color: white;
+  font-family: system-ui, sans-serif;
+}
+:root {
+  --font-orbitron: 'Orbitron', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-orbitron);
+}
+
+body, p, li {
+  font-family: var(--font-mono);
+}
