@@ -259,7 +259,7 @@ export default function Home() {
 
 /* ================= Components ================= */
 
-function StatusLine({ label }) {
+function StatusLine({ label }: { label: string }) {
   return (
     <p>
       &gt; {label}:
@@ -271,7 +271,15 @@ function StatusLine({ label }) {
   );
 }
 
-function SkillCard({ icon, title, items }) {
+function SkillCard({
+  icon,
+  title,
+  items,
+}: {
+  icon: React.ReactNode;
+  title: string;
+  items: string[];
+}) {
   return (
     <div className="bg-[#0f172a] border border-cyan-500/20 p-6 rounded-xl">
       <div className="text-cyan-400 text-2xl mb-4">{icon}</div>
@@ -288,7 +296,7 @@ function SkillCard({ icon, title, items }) {
   );
 }
 
-function Timeline({ items }) {
+function Timeline({ items }: { items: string[] }) {
   return (
     <div className="border-l-2 border-cyan-500 pl-6 space-y-6">
       {items.map((item, i) => (
