@@ -187,6 +187,7 @@ export default function Home() {
             "Hardware & Software Troubleshooting",
             "Workstation Deployment",
             "Microsoft System Center Configuration Manager",
+            "Figure print administration",
             "Network Communication Support"
             
              
