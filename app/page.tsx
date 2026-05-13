@@ -169,6 +169,7 @@ export default function Home() {
             "VLAN / VPN",
             "Firewall (Sophos XG, Fortinet)",
             "Cisco VoIP",
+            "Grandstream Networks",
             "PBX Systems"
           ]} />
 
@@ -177,6 +178,8 @@ export default function Home() {
             "Kaspersky Endpoint Security",
             "Safetica",
             "Zoho IT Management",
+            "Linux,Management",
+            "IP camera system",
             "CCTV Systems"
           ]} />
 
