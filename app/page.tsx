@@ -130,7 +130,7 @@ export default function Home() {
         <h2 className="text-3xl text-cyan-400 mb-8">Professional Summary</h2>
         <div className="bg-black/70 border border-cyan-500/20 p-8 rounded-xl space-y-4 text-gray-300">
           <p>
-            Experienced IT Professional with over 8 years of hands-on experience in system administration,
+            Experienced IT Professional with over 6 years of hands-on experience in system administration,
             network infrastructure, cybersecurity, and enterprise IT solutions.
           </p>
           <p>
