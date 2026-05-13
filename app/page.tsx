@@ -186,7 +186,10 @@ export default function Home() {
           <SkillCard icon={<FaTools />} title="Technical Support" items={[
             "Hardware & Software Troubleshooting",
             "Workstation Deployment",
+            "Microsoft System Center Configuration Manager",
             "Network Communication Support"
+            
+             
           ]} />
 
           <SkillCard icon={<FaCode />} title="Programming & Tools" items={[
