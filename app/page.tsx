@@ -29,7 +29,7 @@ export default function Home() {
         bg-[size:40px_40px]" />
 
       {/* Glow */}
-      <div className="absolute top-[-300px] left-1/2 -translate-x-1/2 w-[1000px] h-[1000px] bg-cyan-500/10 blur-[200px] rounded-full pointer-events-none" />
+      <div className="hidden md:block absolute top-[-300px] left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-cyan-500/10 blur-[160px] rounded-full pointer-events-none" />
 
       {/* ================= HERO ================= */}
       <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 relative z-10">
@@ -42,7 +42,7 @@ export default function Home() {
               system_admin@enterprise:~#
             </p>
 
-<h1 className="text-4xl md:text-5xl font-bold mt-6 tracking-wide whitespace-nowrap">
+<h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-6 text-white leading-tight">
   <span className="text-white">Hassan Abdallah </span>
   <span className="
     text-transparent 
